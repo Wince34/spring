@@ -1,12 +1,12 @@
 package com.cwy.dao;
 
-import com.cwy.entity.Entity;
+import com.cwy.entity.MemberEntity;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 @Repository
-public interface Mapper {
+public interface MemberMapper {
     /*int deleteByPrimaryKey(Long id);
 
     int insert(MemberEntity member);
