@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping(value = "indexs")
 public class indexController {
 
+
     @RequestMapping(value = "index.do")
     public String index(){
         return "index1";
